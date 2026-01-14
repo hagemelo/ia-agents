@@ -1,0 +1,19 @@
+
+[
+    {
+        "nome": "Baixa",
+        "descricao": "Riscos classificados com criticidade baixa devem ser apenas mapeados pelo time, com reavaliações periódicas de sua classificação. A resposta a esse tipo de risco se restringe à aceitação do impacto em caso de ocorrência.",
+        "valor": 25
+    },
+    {
+        "nome": "Média",
+        "descricao": "A resposta a riscos classificados com criticidade média deve incluir alarmes configurados, dashboards de monitoramento no Datadog, reavaliações periódicas da classificação e um plano de mitigação geral associado.",
+        "valor": 50
+    },
+    {
+        "nome": "Alta",
+        "descricao": "A resposta a riscos classificados com criticidade alta deve incorporar todas as ações previstas para riscos de criticidade média, com acréscimos específicos, como a definição de planos de testes end-to-end, tanto integrados à esteira de desenvolvimento quanto aplicados no monitoramento em produção. Além disso, é necessário estabelecer um controle mais rigoroso sobre Pull Requests e manter o desenho arquitetural da solução atualizado. O objetivo principal é mitigar ao máximo a possibilidade de ocorrência do risco.",
+        "valor": 100
+    }
+
+]
